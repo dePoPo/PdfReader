@@ -1,14 +1,6 @@
 # PdfReader
-A simple windows tool to browse performance counters on your local system. Nothing more, nothing less. Browse the performance counters on your system, which may be hard to find on certain locales.
+There is a point where all the bloat and pushy 'services' are enough, and you simply want to view your PDF file. This little reader does just that, nothing more, nothing less. It is little more then a simple wrapper around a very capable PDF control and as such get's teh job done without any bels or whistles.
 
-- In the first column, the list of categories is shown
-- Upon selection, the second column will show the list of instance
-- After which the third column will show the actual list of performance counters
-
-If you select an actual counter, the bottom right will show you a sample from the counter with a 1 second interval.
-
-![ScreenShot](PerformanceCounterBrowser.png)
-
-To learn more about the PerformanceCounter class used to access the data, see https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.performancecounter?view=netframework-4.8
+![ScreenShot](PdfReader.png)
 
 
